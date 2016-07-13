@@ -12,7 +12,7 @@
         <repository>
             <id>nexus</id>
             <name>development</name>
-            <url>http://10.10.15.138:8081/nexus/content/groups/public/</url>
+            <url>http://ip:port/nexus/content/groups/public/</url>
             <layout>default</layout>
             <releases>
                 <enabled>true</enabled>
@@ -27,7 +27,7 @@
         <pluginRepository>
             <id>nexus</id>
             <name>development</name>
-            <url>http://10.10.15.138:8081/nexus/content/groups/public/</url>
+            <url>http://ip:port/nexus/content/groups/public/</url>
             <layout>default</layout>
             <releases>
                 <enabled>true</enabled>
@@ -41,11 +41,11 @@
     <distributionManagement>
         <repository>
             <id>releases</id>
-            <url>http://10.10.15.138:8081/nexus/content/repositories/releases/</url>
+            <url>http://ip:port/nexus/content/repositories/releases/</url>
         </repository>
         <snapshotRepository>
             <id>msp-snapshots</id>
-            <url>http://10.10.15.138:8081/nexus/content/repositories/snapshots/</url>
+            <url>http://ip:port/nexus/content/repositories/snapshots/</url>
         </snapshotRepository>
         <site>
             <id>www.szcomtop.com</id>
